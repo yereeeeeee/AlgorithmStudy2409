@@ -6,10 +6,7 @@ class Solution {
         int[] cnt = new int[e + 1];
         int[] maxCnt = new int[e + 1];
         for(int i = 1; i <= e; i++) {
-            cnt[i] = 1;
-        }
-        for(int i = 2; i <= e; i++) {
-            for(int j = 1; j < e; j++) {
+            for(int j = 1; j <= e; j++) {
                 if(i * j > e) break;
                 cnt[i * j]++;
             }
