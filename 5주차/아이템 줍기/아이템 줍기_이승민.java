@@ -29,17 +29,16 @@ class Solution {
         }
 
         Queue<int[]> q = new LinkedList<>();
-        q.add(new int[]{characterX * 2, characterY * 2, 0});
+        q.add(new int[]{characterX * 2, characterY * 2});
         rec[characterY * 2][characterX * 2] = 0;
 
         while(!q.isEmpty()) {
             int[] now = q.poll();
             int nowX = now[0];
             int nowY = now[1];
-            int t = now[2];
 
             if (nowX == itemX * 2 && nowY == itemY * 2) {
-                return t / 2;
+                return rec[nowY][nowX] / 2;
             }
 
             for(int d = 0; d < 4; d++) {
@@ -47,12 +46,12 @@ class Solution {
                 int nextY = nowY + dy[d];
 
                 if (nextX >= 1 && nextX <= 100 && nextY >= 1 && nextY <= 100 && rec[nextY][nextX] == 1) {
-                    q.add(new int[]{nextX, nextY, t+1});
-                    rec[nextY][nextX] = 0;
+                    q.add(new int[]{nextX, nextY});
+                    rec[nextY][nextX] = rec[nowY][nowX] + 1;
                 }
             }
         }
 
-        return -1;
+        return rec[itemY][itemX] / 2;
     }
 }
