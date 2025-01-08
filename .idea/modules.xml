@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/10주차/10주차.iml" filepath="$PROJECT_DIR$/10주차/10주차.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11주차/11주차.iml" filepath="$PROJECT_DIR$/11주차/11주차.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1주차/1주차.iml" filepath="$PROJECT_DIR$/1주차/1주차.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2주차/2주차.iml" filepath="$PROJECT_DIR$/2주차/2주차.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3주차/3주차.iml" filepath="$PROJECT_DIR$/3주차/3주차.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5주차/5주차.iml" filepath="$PROJECT_DIR$/5주차/5주차.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6주차/6주차.iml" filepath="$PROJECT_DIR$/6주차/6주차.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7주차/7주차.iml" filepath="$PROJECT_DIR$/7주차/7주차.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8주차/8주차.iml" filepath="$PROJECT_DIR$/8주차/8주차.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9주차/9주차.iml" filepath="$PROJECT_DIR$/9주차/9주차.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlgorithmStudy2409.iml" filepath="$PROJECT_DIR$/AlgorithmStudy2409.iml" />
+    </modules>
+  </component>
+</project>
